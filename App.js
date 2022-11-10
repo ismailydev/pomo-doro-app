@@ -92,7 +92,10 @@ export default function App() {
                             }}
                             className="flex justify-center items-center w-20 h-20 bg-[#7E3C21] mx-auto rounded-full"
                         >
-                            <Text className="text-white align-middle">
+                            <Text
+                                className="text-white text-center"
+                                style={{ fontFamily: "poppins" }}
+                            >
                                 Break
                             </Text>
                         </TouchableOpacity>
@@ -105,7 +108,10 @@ export default function App() {
                             }}
                             className="justify-center w-20 h-20 bg-[#7E3C21] mx-auto rounded-full"
                         >
-                            <Text className="text-white text-center">
+                            <Text
+                                className="text-white text-center"
+                                style={{ fontFamily: "poppins" }}
+                            >
                                 Focus
                             </Text>
                         </TouchableOpacity>
