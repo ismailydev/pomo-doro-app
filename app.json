@@ -1,6 +1,6 @@
 {
     "expo": {
-        "name": "pomo-doro-app",
+        "name": "pomo-doro",
         "slug": "pomo-doro-app",
         "version": "1.0.0",
         "orientation": "portrait",
@@ -8,8 +8,8 @@
         "userInterfaceStyle": "light",
         "splash": {
             "image": "./assets/splash.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#ffffff"
+            "resizeMode": "cover",
+            "backgroundColor": "#fff7ec"
         },
         "updates": {
             "fallbackToCacheTimeout": 0
@@ -22,10 +22,16 @@
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#FFFFFF"
-            }
+            },
+            "package": "com.ismailydev.pomodoroapp"
         },
         "web": {
             "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "4a6531cf-d78c-4ff8-9a21-e85aeb0d4071"
+            }
         }
     }
 }
